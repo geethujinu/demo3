@@ -1,7 +1,7 @@
 
-def add_numbers(a,b):
-    sum=a+b;
-    return sum;
-num1=int(input("input the first number : "))
-num2=int(input("input the second number  :"))
-print("The sum is",add_numbers(num1,num2))
+def sum(n1,n2):
+    sum = n1 + n2
+    return sum
+num1 = int(input("Enter first number "))
+num2 = int(input("Enter second number "))
+print("The sum of two number is",sum(num1,num2))
